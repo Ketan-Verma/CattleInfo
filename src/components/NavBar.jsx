@@ -30,7 +30,7 @@ export default function NavBar({ onSelectSerialNumber }) {
   }
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ p: 1, backgroundColor: "lightgrey" }}>
+      <AppBar position="static" sx={{ p: 1, backgroundColor: "Background" }}>
         <Toolbar sx={{ justifyContent: "center", color: "blue" }}>
           <AutoComplete sx={{ color: "blue" }} />
         </Toolbar>
